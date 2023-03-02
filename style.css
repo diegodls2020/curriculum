@@ -6,12 +6,31 @@ div{
     text-align: center;
 }
 header{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+}
+.nav-menu{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Shantell Sans', cursive;
+    color: #005677;
+}
+a{
+    color: red;
+    font-weight: bold;
+    font: weight 900px;
+}
+a:hover{
+    color: seagreen;
+}
+li{
+    padding: 10px;
+    font-family:'Shantell Sans', cursive ;
 }
 section dl dt{
     background-color: #C4C4C4;
     color: #005677;
-    font-weight: bold;   
+    font-weight: bold;  
+    padding: 15px; 
 }
 footer{
     margin-top:100px;

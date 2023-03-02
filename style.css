@@ -1,17 +1,56 @@
+body{
+    background-image: url(./img/fondo-akwice.jpg);
+    background-size:cover;
+    
+
+}
 h1{ 
     text-align: center;
     background-color: #C4C4C4;
-}
+    font-family: 'Amatic SC', cursive;
+
+    }
 div{
     text-align: center;
 }
 header{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+}
+.nav-menu{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Shantell Sans', cursive;
+    }
+a{
+    color:white;
+    font-weight: bold,lighter;
+    font-size: 25px;
+    
+}
+a:hover{
+    color: seagreen;
+}
+li{
+    padding: 10px;
+    font-family:'Shantell Sans', cursive ;
+    list-style-type: square;
+    color: white;
 }
 section dl dt{
     background-color: #C4C4C4;
     color: #005677;
-    font-weight: bold;   
+    font-weight: bold;  
+    padding: 10px; 
+    font-weight: lighter;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 23px;
+}
+h4{
+    color: rgb(120, 180, 120);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
 }
 footer{
     margin-top:100px;

@@ -1,7 +1,15 @@
+body{
+    background-image: url(./img/fondo-akwice.jpg);
+    background-size:cover;
+    
+
+}
 h1{ 
     text-align: center;
     background-color: #C4C4C4;
-}
+    font-family: 'Amatic SC', cursive;
+
+    }
 div{
     text-align: center;
 }
@@ -12,12 +20,12 @@ header{
     text-align: center;
     letter-spacing: 5px;
     font-family: 'Shantell Sans', cursive;
-    color: #005677;
-}
+    }
 a{
-    color: red;
-    font-weight: bold;
-    font: weight 900px;
+    color:white;
+    font-weight: bold,lighter;
+    font-size: 25px;
+    
 }
 a:hover{
     color: seagreen;
@@ -25,12 +33,24 @@ a:hover{
 li{
     padding: 10px;
     font-family:'Shantell Sans', cursive ;
+    list-style-type: square;
+    color: white;
 }
 section dl dt{
     background-color: #C4C4C4;
     color: #005677;
     font-weight: bold;  
-    padding: 15px; 
+    padding: 10px; 
+    font-weight: lighter;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 23px;
+}
+h4{
+    color: rgb(120, 180, 120);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
 }
 footer{
     margin-top:100px;
